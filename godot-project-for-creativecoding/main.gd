@@ -41,7 +41,7 @@ var bass_index = 0
 var neon_time = 0.0
 
 func _ready() -> void:
-	change_instrument(0, 57)
+	change_instrument(0, 58)
 	change_instrument(1, 32)
 
 	update_label()
