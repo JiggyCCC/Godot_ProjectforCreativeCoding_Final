@@ -9,7 +9,7 @@ Class Group: Group A / TU850
 
 # Video on YouTube
 
-[![YouTube][def]](https://youtu.be/sRfauO2071Y)
+[![Watch my Trombone Tunes project on Youtube](Images/Screenshot1.png)](https://youtu.be/sRfauO2071Y)
 
 # Screenshots
 
