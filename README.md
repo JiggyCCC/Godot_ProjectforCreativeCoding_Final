@@ -1,23 +1,21 @@
-# Project Title
+# Trombone Tunes
 
-Include for each contributer:
+Name: Charlie Casey Carney
 
-Name:
+Student Number: A00023955
 
-Student Number: 
-
-Class Group:
+Class Group: Group A / TU850
 
 
 # Video
 
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+[![YouTube][def]](https://youtu.be/F8dep44U7vc)
 
 # Screenshots
 
 This is an image using a relative URL:
 
-![An image](../images/p8.png)
+![An image](../images/Screenshot1.png)
 
 This is an image using an absolute URL:
 
@@ -25,7 +23,7 @@ This is an image using an absolute URL:
 
 This is a youtube video:
 
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+[![YouTube][def]](https://www.youtube.com/watch?v=J2kHSSFA4NU)
 
 
 # Description of the project
@@ -122,3 +120,5 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 |Some stuff | Some more stuff in this column |
 |Some stuff | Some more stuff in this column |
+
+[def]: http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg
