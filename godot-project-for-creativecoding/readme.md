@@ -1,26 +1,124 @@
-# Godot MIDI Player for Godot Engine 4.x
+# Project Title
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E44AWTA)
+Include for each contributer:
 
-Software MIDI player library for Godot Engine 4.2 later
+Name:
 
-## for Godot Engine 3
+Student Number: 
 
-[see this repository](https://bitbucket.org/arlez80/godot-midi-player)
+Class Group:
 
-## Demo
 
-* [download](https://bitbucket.org/arlez80/godot-midi-player-g4/downloads/demo.zip)
-	* This demo can get MIDIInput events. You can play using MIDI keyboards!
-* BGM "failyland_gm.mid" from [IvyMaze]( http://ivymaze.sakura.ne.jp/ )
-* Youtube: [Demo #1](https://www.youtube.com/watch?v=SdrU4uRepVs)
-* Youtube: [Demo #2](https://www.youtube.com/watch?v=nn21P3eI4hs)
-* Youtube: [Demo #3](https://www.youtube.com/watch?v=dAYfFH-Fq2o)
+# Video
 
-## License
+[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
 
-MIT License
+# Screenshots
 
-## Author
+This is an image using a relative URL:
 
-* @arlez80 あるる / きのもと 結衣 ( Yui Kinomoto )
+![An image](../images/p8.png)
+
+This is an image using an absolute URL:
+
+![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
+
+This is a youtube video:
+
+[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+
+
+# Description of the project
+
+This must be human written.
+
+# Instructions for use
+
+This must be human written
+
+# How it works:
+
+Explain in your own words
+
+# List of classes/assets in the project
+
+| Class/asset | Source |
+|-----------|-----------|
+| MyClass.cs | Self written |
+| MyClass1.cs | Modified from [reference]() |
+| MyClass2.cs | From [reference]() |
+
+# References
+* Item 1
+* Item 2
+
+# What I am most proud of in the assignment
+
+- Each team member
+- Must be human written. Reflect on what you achieved and share it
+
+# What I learned
+
+- Each team member
+- Must be human written. Reflect on what you learned and share it
+
+# Proposal submitted earlier can go here (if there is one):
+
+## Below is how to use Markdown. You can delete this:
+
+## This is how to markdown text:
+
+This is *emphasis*
+
+This is a bulleted list
+
+- Item
+- Item
+
+This is a numbered list
+
+1. Item
+1. Item
+
+This is a [hyperlink](http://bryanduggan.org)
+
+# Headings
+## Headings
+#### Headings
+##### Headings
+
+This is code:
+
+```Java
+public void render()
+{
+	ui.noFill();
+	ui.stroke(255);
+	ui.rect(x, y, width, height);
+	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
+	ui.text(text, x + width * 0.5f, y + height * 0.5f);
+}
+```
+
+So is this without specifying the language:
+
+```
+public void render()
+{
+	ui.noFill();
+	ui.stroke(255);
+	ui.rect(x, y, width, height);
+	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
+	ui.text(text, x + width * 0.5f, y + height * 0.5f);
+}
+```
+
+
+This is a table:
+
+| Heading 1 | Heading 2 |
+|-----------|-----------|
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
