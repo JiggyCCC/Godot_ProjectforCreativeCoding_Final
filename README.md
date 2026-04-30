@@ -19,7 +19,7 @@ This is an image using a relative URL:
 
 This is an image using an absolute URL:
 
-![A different image](https://imgur.com/a/q8EHOlP)
+![A different image](https://imgur.com/a/q8EHOlP#6o9VrRE)
 
 This is a youtube video for my project:
 
@@ -48,7 +48,7 @@ The player uses the keyboard to play notes, and the _input() function detects wh
 keys are pressed. The project uses send_note_on() and send_note_off() to send MIDI
 messages to the trombone instrument. The get_scale_note() function helps switch
 between major and minor scales, while variables like transpose and root_note let the
-pitch and key change while playing. The trombone slide is animated using lerp() in
+pitch and key, change while playing. The trombone slide is animated using lerp() in
 _process(), and _draw() is used to create the colourful jazzy laneway, floating music
 notes, and trombone visuals. A timer also runs a repeating bass pattern in the
 background to make the scene feel more musical.
