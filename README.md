@@ -15,7 +15,7 @@ Class Group: Group A / TU850
 
 This is an image using a relative URL:
 
-![Screenshot of my project](/Images/images/Screenshot1.png)
+![Screenshot of my project](Images/Screenshot1.png)
 
 This is an image using an absolute URL:
 
