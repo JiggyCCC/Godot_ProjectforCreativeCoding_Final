@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Godot_Project_for_creativecoding"
+run/main_scene="uid://7axmdse4scwv"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/midi/plugin.cfg")
 
 [physics]
 

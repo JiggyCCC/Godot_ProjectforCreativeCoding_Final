@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://7axmdse4scwv"]
+
+[ext_resource type="Script" uid="uid://bf1vnufu7na6x" path="res://addons/midi/MidiPlayer.gd" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://ye16kc5wce7e" path="res://main.gd" id="1_uu6xs"]
+
+[node name="Main" type="Node2D" unique_id=603444739]
+script = ExtResource("1_uu6xs")
+
+[node name="MidiPlayer" type="Node2D" parent="." unique_id=1487002762]
+script = ExtResource("1_glv2v")
+soundfont = "res://addons/Aspirin-Stereo copy 2.sf2"
+
+[node name="InfoLabel" type="Label" parent="." unique_id=4424634]
+offset_right = 277.0
+offset_bottom = 125.0
+theme_override_font_sizes/font_size = 20
+uppercase = true
+
+[node name="BackingTimer" type="Timer" parent="." unique_id=92819083]
+wait_time = 0.5
+autostart = true
