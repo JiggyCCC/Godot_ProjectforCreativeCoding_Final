@@ -63,7 +63,7 @@ func get_scale_note(degree):
 	var note = root_note + current_scale[index] + (octave * 12) + transpose
 	return clamp(note, 0, 127)
 
-# Changes the MIDI instrument on a channel
+# Change the MIDI instrument on a channel
 func change_instrument(channel, instrument):
 	var midi_event = InputEventMIDI.new()
 	midi_event.channel = channel
@@ -179,7 +179,7 @@ func _process(delta):
 
 	queue_redraw()
 
-# Creates a floating music note visual
+# floating music note visual
 func create_floating_note(note):
 	var note_obj = {
 		"pos": Vector2(770, 370),
@@ -189,7 +189,7 @@ func create_floating_note(note):
 
 	floating_notes.append(note_obj)
 
-# Plays the repeating bass pattern
+# repeating bass pattern
 func _on_backing_timer_timeout():
 	var note = bass_pattern[bass_index]
 	play_short_note(note, 0.35, 1)
@@ -200,7 +200,7 @@ func _draw():
 	draw_trombone()
 	draw_floating_notes()
 
-# Draw the jazz laneway background
+# jazz laneway background
 func draw_background():
 	var vs = get_viewport_rect().size
 
@@ -228,7 +228,7 @@ func draw_background():
 	draw_circle(Vector2(850, 110), 13, Color(0.8, 0.3, 1.0))
 	draw_circle(Vector2(910, 160), 11, Color(0.2, 1.0, 0.8))
 
-# Draw the interactive trombone
+# interactive trombone
 func draw_trombone():
 	var base_x = 460
 	var base_y = 390
@@ -247,7 +247,7 @@ func draw_trombone():
 
 	draw_circle(Vector2(base_x + 210 + slide_offset, base_y + 45), 18, Color(1.0, 0.78, 0.62))
 
-# Draws floating note visuals
+# floating note visuals
 func draw_floating_notes():
 	for n in floating_notes:
 		var p = n["pos"]
